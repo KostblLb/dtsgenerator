@@ -1,7 +1,7 @@
 {
-  "name": "dtsgenerator",
-  "version": "2.4.1",
-  "description": "TypeScript d.ts file generator for JSON Schema file",
+  "name": "@eastbanctechru/dtsgenerator",
+  "version": "2.4.2",
+  "description": "[Fork of] TypeScript d.ts file generator for JSON Schema file",
   "bin": {
     "dtsgen": "./bin/dtsgen"
   },
@@ -29,15 +29,15 @@
     "JSON Schema",
     "OpenAPI"
   ],
-  "author": "horiuchi",
+  "author": "horiuchi and KostblLb",
   "license": "MIT",
-  "homepage": "https://github.com/horiuchi/dtsgenerator",
+  "homepage": "https://github.com/kostbllb/dtsgenerator",
   "repository": {
     "type": "git",
-    "url": "git@github.com:horiuchi/dtsgenerator.git"
+    "url": "git@github.com:kostbllb/dtsgenerator.git"
   },
   "bugs": {
-    "url": "https://github.com/horiuchi/dtsgenerator/issues"
+    "url": "https://github.com/kostbllb/dtsgenerator/issues"
   },
   "engines": {
     "node": ">= 6.0"

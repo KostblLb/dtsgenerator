@@ -162,7 +162,8 @@ export default class DtsGenerator {
             return;
         }
         if (content.enum) {
-            this.convertor.outputArrayedType(schema, content.enum, (value) => {
+            const sortedEnumValues = content.type === 'string' ? [...content.enum.sort()] : content.enum;
+            this.convertor.outputArrayedType(schema, sortedEnumValues, (value) => {
                 if (content.type === 'integer' || content.type === 'number') {
                     this.convertor.outputRawValue('' + value);
                 } else {
